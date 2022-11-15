@@ -1,0 +1,36 @@
+PSEUDOCODE FOR THE ADAM'S WALKING 
+
+Function singleTry 
+	Pass In: Step
+	index = 0
+	lenOfStep = len(step)
+	while index < lenOfStep
+		if step[index] == U
+			if index + 1 == lenOfStep
+				index = index + 1
+				ExitLoop 
+			index = index + 1 
+		else 
+			ExitLoop 
+	Pass out: index 
+
+	
+Endfunction	
+
+fileRead =  openRead(Adam_in.txt)
+numOfTry = fileRead.ReadLine(1)
+
+i = 1
+DECLARE steps[1,numOfTry]: Array of Int 
+while i = 1 To numOfTry
+steps[i] = singleTry(fileRead.ReadLine(i))
+
+EndWhile 
+
+fileRead.endOfFile
+
+i = 1
+while i = 1 To numOfTry
+	OUTPUT(steps[i])
+EndWhile 
+

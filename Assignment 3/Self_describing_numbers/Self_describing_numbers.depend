@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1668940830 source:c:\users\dell\desktop\work\school\pdf 200 level\first semester\csc 235 object oriented programming\assignments\assignment 3\self_describing_numbers\main.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-

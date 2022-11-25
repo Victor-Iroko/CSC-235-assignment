@@ -1,0 +1,39 @@
+Name: Iroko Victor Pamilerin
+Matric No: 222476
+Course: CSC 235
+Github: 
+
+START
+FILE open file 
+READ number of test cases as num_test_cases
+FOR each test case
+	READ number of files as num_files 
+	FOR each file 
+		SET lowest_id to file id
+		FOR each file 
+			IF ounter file == inner file
+			SET value for lowest_id to the file with the lowest id 
+			END IF 
+		END FOR 
+	OUTPUT lowest_id
+	END FOR
+END FOR 
+CLOSE file 
+STOP 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+Name: Iroko victor Pamilerin
+Matric No: 222476
+Course: CSC 235
+Github: 
+
+START
+FILE open file 
+READ number of test cases as num_test_cases 
+FOR each test case 
+	READ number as a string from the file INTO num_str
+	GET the amout of each digit in num_str
+	FOR each index in num_str
+		IF index == number of digit at same index 
+			IF index is the last index 
+			OUTPUT "Self describing"
+			END IF 
+		ELSE 
+		OUTPUT "Not self describing"
+		END IF 
+	END FOR 
+END FOR
+CLOSE file
+STOP
+
